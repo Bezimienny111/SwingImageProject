@@ -67,25 +67,25 @@ public class Main {
 		MyImage test5 = new MyImage();
 		MyImage test6 = new MyImage();
 
-		test1.getAuthor().setName("Robert");
+		test1.getAuthor().setName("aaaa");
 		;
-		test2.getAuthor().setName("Michal");
-		test3.getAuthor().setName("Tomek");
-		test4.getAuthor().setName("Grzegorz");
-		test5.getAuthor().setName("Ala");
-		test6.getAuthor().setName("Ola");
-		test7.getAuthor().setName("Iza");
-		test8.getAuthor().setName("Darka");
-		test3.getAuthor().setSurname("Dziwak");
-		test4.getAuthor().setSurname("Kowal");
-		test5.getAuthor().setSurname("Kota");
-		test6.getAuthor().setSurname("Balcera");
-		test7.getAuthor().setSurname("Balcera");
-		test8.getAuthor().setSurname("Kowalska");
+		test2.getAuthor().setName("wwww");
+		test3.getAuthor().setName("rrr");
+		test4.getAuthor().setName("aaaa");
+		test5.getAuthor().setName("ddd");
+		test6.getAuthor().setName("ccc");
+		test7.getAuthor().setName("bbb");
+		test8.getAuthor().setName("aaa");
+		test3.getAuthor().setSurname("hfhfhf");
+		test4.getAuthor().setSurname("jgjghjg");
+		test5.getAuthor().setSurname("tteter");
+		test6.getAuthor().setSurname("75765");
+		test7.getAuthor().setSurname("hfhfhf");
+		test8.getAuthor().setSurname("hfhfhf");
 		test8.setLocation("Moria");
 		test7.setLocation("Khorinis");
-		test2.setFilePatch("C:\\Users\\Bezi\\Desktop\\test.jpg");
-		test3.setFilePatch("C:\\Users\\Bezi\\Desktop\\test.jpg");
+		test2.setFilePatch("C:\\Users\\hfhfhf\\Desktop\\test.jpg");
+		test3.setFilePatch("C:\\Users\\hfhfhf\\Desktop\\test.jpg");
 		test2.addTag("DOM");
 		test2.addTag("JEZIORO");
 		test3.addTag("WYCIECZKA");
@@ -423,7 +423,7 @@ public class Main {
 		table.setRowSorter(sorter);
 
 		// *******************************************************************
-		// ***************** Wyœwietlanie daty po /przed *********************
+		// ***************** WyÂœwietlanie daty po /przed *********************
 		// *******************************************************************
 		JButton dateAfterButton = new JButton("Find date after - use format dd/MM/yyyy");
 		dateAfterButton.addActionListener(new ActionListener() {
@@ -580,7 +580,7 @@ public class Main {
 					try {
 						sorter.setRowFilter(RowFilter.regexFilter(findField.getText(), col));
 					} catch (java.util.regex.PatternSyntaxException e) {
-						// mo¿e wyrzucaæ ten blad przy pojedynczym "\"
+						// moÂ¿e wyrzucaÃ¦ ten blad przy pojedynczym "\"
 					}
 				} else
 					sorter.setRowFilter(null);
